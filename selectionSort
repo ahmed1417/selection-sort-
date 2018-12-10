@@ -1,0 +1,18 @@
+public void selectionSort (int a[]){
+  int in , out , min ;
+  for (out =0 ; out< a.lenght-1 ; out++){
+    min = out ;
+    for (in = out+1 ; in < a.lenght ; i++){
+      if ( a[in] < a[min])
+      min = in ;
+      }
+      swap (out,min );
+    }
+ }
+ 
+ private void swap ( int index1 , int index2 ) {
+  int tmp = intArray [index1] ;
+  intArray [index1] = intArray [index2] ;
+  intArray [index2] = tmp ;
+ }
+  
